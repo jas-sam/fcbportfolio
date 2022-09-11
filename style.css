@@ -1,5 +1,8 @@
+html{
+	scroll-behavior: smooth !important;
+}
 body{
-	background-color: #1b1b32;
+	background-color: #0A0A23;
 }
 *{
 	font-family: "Roboto", sans-serif;
@@ -17,9 +20,13 @@ i{
 	margin-bottom: 16px;
 }
 img{
+	height: 30px;
+	width: 30px;
+}
+.beel{
 	height: 250px;
 	width: 250px;
-	border: 5px solid #4F4F3B;
+	border: 5px solid #0A0A23;
 	border-radius: 100%;
 }
 ul{
@@ -47,7 +54,4 @@ ul{
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
-html{
-	scroll-behavior: smooth !important;
 }
